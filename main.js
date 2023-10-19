@@ -163,3 +163,30 @@ if(x===10) console.log("true")
 const y='10'
 if(x==y) console.log("test 1 passsed")
 if(x===y) console.log('case 2 is passed ')
+
+
+
+function addnums(num1,num2){
+    console.log(num1+num2)
+
+}
+addnums(3,NaN)
+function addnums1(num1=1,num2=1){// usiing defusalt values
+   // console.log(num1+num2)
+return num1+num2
+
+}
+//ddnums1()
+
+
+// arro function
+const add = (num1,num2)=>{
+    return num1+num2
+}
+console.log(add(5,3))
+
+//concise arro function
+const cadd = (num1,num2) => num1+num2
+console.log(cadd(2,4))
+const increment = num1 => num1+5
+console.log(increment(5))
