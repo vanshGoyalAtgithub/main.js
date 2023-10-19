@@ -64,7 +64,7 @@ console.log(person)
 */
 
 
-
+/*
 
 const todos =[
     {
@@ -157,3 +157,9 @@ const todoT2 =todos.filter(function (todo){
     return todo.isCompleted==true;
 }).map(function todo(){return todo.task})
 console.log(todoT2)
+*/
+const x=10
+if(x===10) console.log("true")
+const y='10'
+if(x==y) console.log("test 1 passsed")
+if(x===y) console.log('case 2 is passed ')
