@@ -190,3 +190,20 @@ const cadd = (num1,num2) => num1+num2
 console.log(cadd(2,4))
 const increment = num1 => num1+5
 console.log(increment(5))
+
+function man(fname,lname,place,dob){
+    this.fname = fname;
+    this.lname = lname;
+    this.place = place;
+    this.dob= new Date(dob)
+    this.getname = function(){
+        return this.fname ;
+
+    }
+
+} 
+
+const person = new man('vansh', 'goyal', "merrut",'2-4-20005')
+console.log(person)
+console.log(person.dob)
+console.log(person.getname())
